@@ -1,0 +1,896 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+ 
+ 
+
+.container{
+  /* border:1px solid black; */
+  max-width: 375px;
+  height: 1725px;
+  background: linear-gradient(180deg, #FFF6FB 0%, #E7F6FC 33.33%, rgba(213, 224, 255, 0) 100%);
+  margin:0 auto;
+   
+}
+
+ 
+
+.nav-box{
+   
+  padding:1.5rem;
+  background: rgba(255, 255, 255, 0.47);
+  box-shadow: 0px 4px 14px rgba(24, 160, 251, 0.12);
+  backdrop-filter: blur(4px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 0px 0px 14px 14px;
+  /* position:static; */
+  /* position:fixed; */
+  position: fixed;
+  top: 0;
+  width: 375px; 
+  
+}
+
+
+.nav-1{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem; 
+  
+   
+}
+
+.time{
+  font-family: sans-serif;
+  /* font-weight: bold; */
+}
+
+.nav-2{
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+.icon-size{
+  width: 24px;
+  height: 24px;
+}
+
+.shopping-icon{
+  margin-right: 1rem;
+}
+
+
+.about{
+  display: flex;
+  gap:2rem;
+  flex-direction: column;
+ 
+  /* background-color: lightcoral; */
+  margin-top: 3rem;
+  text-align: center;
+  padding:1.5rem;
+}
+
+.about--heading{
+  font-family: 'Reptile';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 33px;
+  line-height: 30px;
+  margin-top: 5rem;
+  color: #1B1B50;  
+}
+
+.about-info{
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+ 
+  color: #1B1B50;
+}
+
+.about-more-info{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 179%;
+  /* or 25px */
+  
+  text-align: left;
+  color: #000000;
+}
+
+
+hr{
+  width: 297px;
+  border: 1px solid #000000;
+  margin-left: 0.5rem; 
+  /* background-color: #000000; */
+}
+
+
+.philosophy{
+  display: flex;
+  flex-direction: column;
+  gap:2.8rem;
+  text-align: center;
+  padding:1.5rem;
+}
+
+
+.philosophy-icons{
+  width: 70px;
+  height: 70px;
+  margin:0 auto;
+}
+
+
+.philosophy .mainheading{
+  font-family: 'Poppins';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 22px;
+ line-height: 33px;
+ color: #1B1B50;
+}
+
+.philosophy .sub-heading{
+  font-family: 'Reptile';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 33px;
+  line-height: 134.8%;
+  color: #1B1B50;
+    
+}
+
+
+.philosophy .more-info{
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 179%;
+  color: #1B1B50;
+    
+}
+
+
+.philosophy .more-more-info{
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 179%;
+  color: #1B1B50;  
+}
+
+
+
+.philosophy .finally-last-info{
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 179%;
+  text-align: center;
+  color: #1B1B50;  
+}
+
+
+
+
+.page-2{
+  width: 375px;
+  height: 841px; 
+  background: linear-gradient(165.41deg, #D99EC9 0%, rgba(246, 240, 196, 0) 100%); 
+  /* border:1px solid black; */
+  margin:0 auto;
+}
+
+
+
+
+.we-are-different{
+  display: flex;
+  flex-direction: column;
+  gap:2.2rem;
+  text-align: left;
+  padding:1.5rem;
+}
+
+
+.we-are-different li{
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+
+.we-are-different .main-heading{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 33px;
+ 
+  color: #1B1B50;
+}
+
+
+
+.we-are-different .sub-heading{
+  font-family: 'Reptile';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 134.8%;
+  color: #1B1B50;
+   
+}
+
+
+.we-are-different .who-we-are{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 180%;
+  /* or 25px */
+  
+  
+  color: #1B1B50;
+}
+
+
+
+
+
+
+
+.page-3{
+  width: 375px;
+  height: 411px;
+  background: #DCE9E9;
+  /* border:1px solid black; */
+  margin:0 auto;
+}
+
+
+.liberate-section{
+  display: flex;
+  flex-direction: column;
+  gap:2rem;
+  padding:1.5rem;
+  text-align: left;
+}
+
+
+.liberate-section .main-heading{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 33px;
+  
+  color: #1B1B50;
+    
+}
+
+.liberate-section .sub-heading{
+  font-family: 'Reptile';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 134.8%;
+  /* or 43px */
+  
+  
+  color: #000000;
+}
+
+.liberate-section .more-info{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 206.5%;
+  /* or 29px */
+  
+  
+  color: rgba(0, 0, 0, 0.8);
+
+  /* position: relative; */
+  
+}
+
+
+
+.page-3-remaining-part{
+  width: 375px;
+  height: 562px;
+  background: linear-gradient(180deg, #DCE9E9 11.21%, rgba(220, 233, 233, 0.15) 42.17%), url(/img/skin-oil.png);
+  margin:0 auto;
+  /* border:1px solid black; */
+  margin-top: -2rem;
+  position:relative;
+}
+
+ 
+.upgrade-button-box{
+  width: 315px;
+  height: 66px;  
+  /* background-color: blue; */
+  position:absolute;
+  top:3rem;
+  left: 50%;
+  transform: translate(-50%);   
+  /* position:relative;  */
+  background: linear-gradient(297.28deg, #F66E6E 67.01%, rgba(246, 110, 110, 0) 123.71%);
+  filter: drop-shadow(0px 2px 6px rgba(255, 22, 64, 0.33));
+  border-radius: 70px;  
+} 
+
+ 
+.upgrade-button{
+  width: 315px;
+  height: 66px; 
+  position:absolute;
+  top:4rem;
+  left: 50%;
+  transform: translate(-50%);  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;  
+  text-align: center;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+ 
+ 
+
+.page-3-remaining-part .hashtag-message{
+  width: 335px;
+  height: 33px; 
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  /* identical to box height */
+  text-align: center;
+  
+  color: rgba(0, 0, 0, 0.8);
+  position:absolute;
+  top:9rem;
+  left: 50%;
+  transform: translate(-50%); 
+  
+}
+
+
+.page-4{
+  width: 375px;
+  height: 780px; 
+  background: linear-gradient(180deg, #FFF6FB 0%, #FFFFFF 100%);
+  margin:0 auto;
+  /* border:1px solid black; */
+}
+
+ .track-mood-section{
+   display: flex;
+   flex-direction: column;
+   gap:2rem;
+   padding: 1.5rem; 
+   position:relative;
+ }
+
+
+
+ .track-mood-section .main-heading{
+  font-family: 'Reptile';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 134.8%;
+  /* or 43px */
+  
+  
+  color: #000000;
+ }
+
+
+ .track-mood-section .mood-info{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 206.5%;
+  /* or 29px */
+  
+  
+  color: rgba(0, 0, 0, 0.8);
+ 
+ }
+
+ 
+.mood-button-box{
+  width: 315px;
+  height: 66px;  
+  /* background-color: blue; */
+  position:absolute;
+  top:300px;
+  left: 50%;
+  transform: translate(-50%);   
+  /* position:relative;  */
+  background: linear-gradient(288.62deg, #6E8CF6 42.36%, rgba(110, 213, 246, 0.93) 115.74%);
+  box-shadow: 0px 2px 16px rgba(71, 222, 255, 0.33);
+  border-radius: 70px;
+  
+} 
+
+ 
+.mood-button{
+  width: 315px;
+  height: 66px; 
+  position:absolute;
+  top:320px;
+  left: 50%;
+  transform: translate(-50%);  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;  
+  text-align: center;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+
+.user-img{
+  max-width: 100%;
+}
+
+
+.image-frame{
+  margin-top: 9rem; 
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  /* grid-template-rows: repeat(2,1fr); */
+  gap:2rem;
+  
+}
+
+
+
+.page-5{
+  width: 375px;
+  height: 394px;
+  background: linear-gradient(176.88deg, #F3B8BC 2.58%, #FFDAD4 93.07%);  
+  margin:0 auto;
+}
+
+
+.track-your-period-section{
+  display: flex;
+  flex-direction: column;
+  gap:2rem;
+  padding:1.5rem;
+  position: relative;
+}
+
+.track-your-period-section .main-heading{
+  font-family: 'Reptile';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 134.8%;
+  /* or 43px */
+  
+  
+  color: #000000;
+  
+}
+
+
+.track-your-period-section .some-info{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 206.5%;
+  /* or 29px */
+  
+  
+  color: rgba(0, 0, 0, 0.8);
+}
+
+ 
+
+.track-your-period-button-box{
+  width: 315px;
+  height: 66px;  
+  /* background-color: blue; */
+  position:absolute;
+  top:300px;
+  left: 50%;
+  transform: translate(-50%);   
+  /* position:relative;  */
+  background: linear-gradient(297.28deg, #F66E6E 67.01%, rgba(246, 110, 110, 0) 123.71%);
+  filter: drop-shadow(0px 2px 6px rgba(255, 22, 64, 0.33));
+  border-radius: 70px;
+  
+} 
+
+ 
+.track-your-period-button{
+  width: 315px;
+  height: 66px; 
+  position:absolute;
+  top:320px;
+  left: 50%;
+  transform: translate(-50%);  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;  
+  text-align: center;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+
+
+
+.calender-img-box{
+  text-align: center;
+}
+
+.calender-img{
+  width: 375px;
+  height: 375px; 
+}
+
+
+
+
+.page-6{
+  width: 375px;
+  height: 421px;  
+  background: linear-gradient(270deg, #DADAE4 0.25%, #EEEEF0 24.33%, #F8F8F8 52.08%, #FEFEFE 100%);
+  margin:0 auto;
+  position:relative;
+}
+
+
+
+
+.consult-with-expert-section{
+  display: flex;
+  flex-direction: column;
+  gap:1.8rem;
+  padding:1.5rem;
+}
+
+
+.consult-with-expert-section .main-heading{
+  font-family: 'Reptile';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 134.8%;
+  /* or 43px */
+  
+  
+  color: #000000;
+  
+}
+
+
+.consult-with-expert-section .more-info{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 206.5%;
+  /* or 29px */
+  
+  
+  color: rgba(0, 0, 0, 0.8);
+  
+}
+
+ 
+
+.consult-button-box{
+  width: 315px;
+  height: 66px;  
+  /* background-color: blue; */
+  position:absolute;
+  top:330px;
+  left: 50%;
+  transform: translate(-50%);   
+  /* position:relative;  */
+  background: linear-gradient(288.62deg, #6E8CF6 42.36%, rgba(110, 213, 246, 0.93) 115.74%);
+  box-shadow: 0px 2px 16px rgba(71, 222, 255, 0.33);
+  border-radius: 70px;
+  
+} 
+
+ 
+.consult-button{
+  width: 315px;
+  height: 66px; 
+  position:absolute;
+  top:350px;
+  left: 50%;
+  transform: translate(-50%);  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;  
+  text-align: center;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+
+
+
+.doctor-pic-box{
+  text-align: center;
+
+}
+
+.doctor-pic{
+   
+  width: 375px;
+  height: 250px;
+}
+
+
+
+.page-7{
+  width: 375px;
+  height: 646px;  
+  background: #F66E6E;
+  margin:0 auto;
+}
+
+
+.period-box-section{
+  display: flex;
+  flex-direction: column;
+   
+  padding:1.5rem;
+}
+
+.period-box-section .main-heading{
+  font-family: 'Reptile';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 134.8%;
+  /* or 43px */
+  
+  
+  color: rgba(255, 255, 255, 0.8);
+  
+}
+
+.period-box-section .more-info{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 206.5%;
+  /* or 29px */
+  
+  
+  color: rgba(255, 255, 255, 0.8);
+  
+}
+
+.period-box-section .period-box-img{
+  max-width: 387px;
+  max-height: 290px;
+}
+
+
+.period-box-button{
+  display: flex;
+  gap:2rem;
+  width: 287px;
+  height: 43px;
+  background: #000000;
+  border-radius: 27px;
+  margin-top: 3rem;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1rem; 
+  cursor: pointer;
+}
+
+
+.btn-text{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 206.5%;
+  /* margin-left: 1.3rem; */
+  /* identical to box height, or 29px */
+  
+  
+  color: #FFFFFF;
+  
+}
+
+.btn-icon{
+  font-size: 1.5rem;
+  font-family: 'Poppins';
+  font-style: normal;
+ 
+  /* identical to box height, or 29px */
+ 
+  color: #FFFFFF;
+}
+
+
+
+
+.page-8{
+  width: 375px;
+  height: 373px; 
+  background: linear-gradient(180deg, #FFF6FB 0%, #E7F6FC 100%);
+  margin:0 auto;
+}
+
+.bonus-section{
+  padding:1.5rem;
+  
+}
+
+
+.bonus-section .info{
+  width: 274px;
+  height: 220px;
+  font-family: 'Reptile';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 33px;
+  line-height: 134.8%;
+  text-align: left;
+  margin:4rem auto; 
+    
+  /* or 44px */
+  
+  
+  color: rgba(0, 0, 0, 0.8); 
+}
+
+
+
+
+
+footer{
+  width: 375px;
+  height: 390px;
+  background: #050506;
+  margin:0 auto;
+}
+
+.last-page{
+  padding:1.5rem;
+}
+
+
+.social-icon-box{
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 2rem;
+}
+
+
+.social-icon{
+  margin-right: 1rem;
+}
+ 
+
+
+.other-links{
+  display: flex;
+  color: #FFFFFF;
+  flex-direction: column;
+  gap:1.5rem;
+  margin-bottom: 2rem;
+}
+
+
+.links{
+  display: grid;
+  grid-template-columns:130px 20px;
+  
+
+}
+
+
+ 
+.line{
+  border-bottom: 1px solid white;
+  margin-bottom: 2rem;
+}
+  
+
+
+.notification{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 8.94737px;
+  line-height: 206.5%;
+  /* or 18px */
+  
+  
+  color: #FFFFFF;  
+}
+
+
+form{
+  display: flex;
+  justify-content: space-between;
+  gap:1rem;
+  
+}
+
+
+.message-icon{
+  width: 1rem;
+  margin-right: 0.5rem;
+}
+
+.message-box{
+  display: flex;
+  /* background-color: lightblue; */
+  padding:0.4rem 2rem;
+
+  cursor: pointer;
+  /* width: 85px; */
+  height: 27.48px;
+   
+
+  background: #D6F4FB;
+  border: 1.2782px solid #E9F4FF;
+  border-radius: 17.2556px;
+
+}
+ 
+
+.activate-button{
+  color:white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 8.94737px;
+  line-height: 206.5%;
+/* identical to box height, or 18px */
+
+
+color: #1B1B50;
+}
